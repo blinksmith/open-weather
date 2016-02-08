@@ -166,7 +166,10 @@ Licensed under the MIT license
 	        		        	
 	        	//set weather description
 	        	$(s.descriptionTarget).text(data.weather[0].description);
-	        	
+	        	// set longitude 
+	        	$(s.lonTarget).text(data.coord.lon);
+	        	// set latitude
+			$(s.latTarget).text(data.coord.lat);
 	        	//if iconTarget and default weather icon aren't null
 			    if(s.iconTarget != null && data.weather[0].icon != null) {
 	        	
