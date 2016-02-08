@@ -6,38 +6,30 @@ This plugin allows you to display the location, the current temperature, the cur
 
 <strong>An API key is not required but it is reccomended. <a href="http://openweathermap.org/login">Register here</a> to obtain an OpenWeatherMap API key for your application.</strong>
 
-<a href="http://michael-lynch.github.io/open-weather/" target="_blank">See demo</a>
+<a href="http://blinksmith.github.io/openweathermap/" target="_blank">See demo</a>
 
 ##Instructions
 
 Include jQuery and the plugin in the head or footer of your page.
 
 ```html
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     
-<script src="/js/plugins/openWeather.js"></script>
+<script src="//cdn.rawgit.com/blinksmith/openweathermap/1.2.1/build/openWeather.min.js"></script>
 ```
 
-The only default output is the current temperature.
-
-To display the current temperature, create an element on your page where the current temperature will be displayed.
-
-```html
-<div class="weather-temperature"></div>
-```
-    
 Initialize the plugin targeting the class, ID or element that you've created with either the 'city' option or 'lat' and 'lng' options set.
 
 ```js
-$('.weather-temperature').openWeather({
-	city: 'Toronto,ON'
+$('.weather-wrapper').openWeather({
+	city: 'Jakarta, ID'
 });
 ```
 	
 OR
 
 ```js
-$('.weather-temperature').openWeather({
+$('.weather-wrapper').openWeather({
 	lat: 30,
 	lng: 25
 });
@@ -71,8 +63,8 @@ To use custom icons create a directory where the icons will live and inside of t
 Place your custom icons inside the "day" and "night" directories and initialize the plugin using the customIcons option.
 
 ```js
-$('.weather-temperature').openWeather({
-	city: 'Toronto,ON',
+$('.weather-wrapper').openWeather({
+	city: 'Jakarta, ID',
 	customIcons: '/img/icons/weather/'
 });
 ```
@@ -161,12 +153,12 @@ $(function() {
 
 	$('.weather-temperature').openWeather({
 		lang: 'ru',
-		city: 'Toronto, ON',
+		city: 'Jakarta, ID',
 		placeTarget: '.weather-place',
-		units: 'f',
 		descriptionTarget: '.weather-description',
-		minTemperatureTarget: '.weather-min-temperature',
-		maxTemperatureTarget: '.weather-max-temperature',
+		cTarget: '.weather-temperature',
+		cminTarget: '.weather-min-temperature',
+		cmaxTarget: '.weather-max-temperature',
 		windSpeedTarget: '.weather-wind-speed',
 		humidityTarget: '.weather-humidity',
 		sunriseTarget: '.weather-sunrise',
