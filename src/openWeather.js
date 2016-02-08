@@ -31,7 +31,6 @@ Licensed under the MIT license
         	placeTarget: null,
         	iconTarget: null,
         	customIcons: null,
-        	units: 'c',
             city: null,
             lat: null,
             lng: null,
@@ -128,47 +127,41 @@ Licensed under the MIT license
 	        url: apiURL,
 	        dataType: 'jsonp',
 	        success: function(data) {
-	        	
-	        	//if units are 'f'
-	        	if(s.units == 'f') {
-	        	
-		        	//define temperature as fahrenheit
-		        	var temperature = Math.round(((data.main.temp - 273.15) * 1.8) + 32) + '°F';
-		        	
-		        	//define min temperature as fahrenheit
-		        	var minTemperature = Math.round(((data.main.temp_min - 273.15) * 1.8) + 32) + '°F';
-		        	
-		        	//define max temperature as fahrenheit
-		        	var maxTemperature = Math.round(((data.main.temp_max - 273.15) * 1.8) + 32) + '°F';
-	        	
-	        	} else {
-		        	
-		        	//define temperature as celsius
-		        	var temperature = Math.round(data.main.temp - 273.15) + '°C';
-		        	
-		        	//define min temperature as celsius
-		        	var minTemperature = Math.round(data.main.temp_min - 273.15) + '°C';
-		        	
-		        	//define max temperature as celsius
-		        	var maxTemperature = Math.round(data.main.temp_max - 273.15) + '°C';
-	        	
+	        	var cTemperature = Math.round(data.main.temp - 273.15) + '°C';
+			var cminTemperature = Math.round(data.main.temp_min - 273.15) + '°C';
+			var cmaxTemperature = Math.round(data.main.temp_max - 273.15) + '°C';
+			var ftemperature = Math.round(((data.main.temp - 273.15) * 1.8) + 32) + '°F';
+			var fminTemperature = Math.round(((data.main.temp_min - 273.15) * 1.8) + 32) + '°F';
+			var fmaxTemperature = Math.round(((data.main.temp_min - 273.15) * 1.8) + 32) + '°F';
+			//if cTarget isn't null
+	        	if(s.cTarget != null) {		        	
+		        	//set Celsius temperature
+		        	$(s.cTarget).text(cTemperature);
 	        	}
-	        	
-	        	//set temperature
-	        	el.html(temperature);
-	        	
-	        	//if minTemperatureTarget isn't null
-	        	if(s.minTemperatureTarget != null) {
-		        	
+	        	//if cminTarget isn't null
+	        	if(s.cminTarget != null) {
 		        	//set minimum temperature
-		        	$(s.minTemperatureTarget).text(minTemperature);
-	        	}
-	        	
+		        	$(s.cminTarget).text(cminTemperature);
+	        	}	        	
 	        	//if maxTemperatureTarget isn't null
-	        	if(s.maxTemperatureTarget != null) {
-		        	
+	        	if(s.cmaxTarget != null) {
 		        	//set maximum temperature
-		        	$(s.maxTemperatureTarget).text(maxTemperature);
+		        	$(s.cmaxTarget).text(cmaxTemperature);
+	        	}
+				//if fTarget isn't null
+	        	if(s.fTarget != null) {		        	
+		        	//set Fahrenheit temperature
+		        	$(s.fTarget).text(ftemperature);
+	        	}
+				//if fMinTarget isn't null
+				if(s.fMinTarget != null) {		        	
+		        	//set minimum temperature
+		        	$(s.fminTarget).text(fminTemperature);
+	        	}
+				//if fMaxTarget isn't null
+				if(s.fMaxTarget != null) {		        	
+		        	//set maximum temperature
+		        	$(s.fmaxTarget).text(fmaxTemperature);
 	        	}
 	        		        	
 	        	//set weather description
