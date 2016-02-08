@@ -53,7 +53,7 @@ Licensed under the MIT license
         var s = plugin.settings;
         
         //define basic api endpoint
-        apiURL = 'http://api.openweathermap.org/data/2.5/weather?lang='+s.lang;
+        apiURL = '//api.openweathermap.org/data/2.5/weather?lang='+s.lang;
         
         //if city isn't null
         if(s.city != null) {	       
@@ -164,7 +164,7 @@ Licensed under the MIT license
 		        		var iconURL = s.customIcons+timeOfDay+'/'+iconName+'.png';			        	
 		        	} else {
 		        		//define icon URL using default icon
-		        		var iconURL = 'http://openweathermap.org/img/w/'+data.weather[0].icon+'.png';
+		        		var iconURL = '//openweathermap.org/img/w/'+data.weather[0].icon+'.png';
 		        	}		        	
 		        	//set iconTarget src attribute as iconURL
 			        $(s.iconTarget).attr('src', iconURL);		        		
