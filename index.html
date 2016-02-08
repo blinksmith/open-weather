@@ -10,7 +10,6 @@
 	<meta name="description" content="A simple, lightweight jQuery plugin used to display the current weather of any city using the free OpenWeatherMap API.">
 	<meta name="author" content="http://michaelynch.com">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="referrer" content="unsafe-url">
 	<meta name="referrer" content="no-referrer"/>
 	<style>
 		/* for presentation only */
@@ -93,7 +92,7 @@
 			//	lat: '-6.16',
 			//	lng: '106.83',
 				lat: geoip_latitude(),
-				lng: 'geoip_longitude()',
+				lng: geoip_longitude(),
 				descriptionTarget: '.weather-description',
 				windSpeedTarget: '.weather-wind-speed',
 				cTarget: '.weather-temperature',
