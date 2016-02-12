@@ -12,11 +12,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="referrer" content="no-referrer"/>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/bgImageTarget.css" rel="stylesheet" type="text/css">
 	<link href="css/customIconTarget.css" rel="stylesheet" type="text/css">
 		
 </head>
 
-<body lang="en">
+<body lang="en" class="bgImageTarget">
 
 	<div class="weather-wrapper hide">
 	
@@ -69,6 +70,7 @@
 				sunriseTarget: '.weather-sunrise',
 				sunsetTarget: '.weather-sunset',
 				placeTarget: '.weather-place',
+				bgImageTarget: '.bgImageTarget',
 				customIconTarget: '.custom-weather-icon',
 				success: function() {
 					$('.weather-wrapper').show();
