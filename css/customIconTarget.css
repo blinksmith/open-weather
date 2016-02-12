@@ -1,0 +1,35 @@
+.customIcon-01d {
+background:url(../img/icons/weather/clear.png) no-repeat center center;
+}
+.customIcon-01n {
+background:url(../img/icons/weather/clear_n.png) no-repeat center center;
+}
+.customIcon-02d,.customIcon-03d,.customIcon-04d {
+background:url(../img/icons/weather/clouds.png) no-repeat center center;
+}
+.customIcon-02n,.customIcon-03n,.customIcon-04n {
+background:url(../img/icons/weather/clouds_n.png) no-repeat center center;
+}
+.customIcon-09d,.customIcon-09n,.customIcon-10d,.customIcon-10n {
+background:url(../img/icons/weather/rain.png) no-repeat center center;
+}
+.customIcon-11d,.customIcon-11n {
+background:url(../img/icons/weather/storm.png) no-repeat center center;
+}
+.customIcon-13d,.customIcon-13n {
+background:url(../img/icons/weather/snow.png) no-repeat center center;
+}
+.customIcon-50d,.customIcon-50n {
+background:url(../img/icons/weather/mist.png) no-repeat center center;
+}
+.customIcon-01d ,.customIcon-01n,.customIcon-02d,
+.customIcon-03d,.customIcon-04d,.customIcon-02n,
+.customIcon-03n,.customIcon-04n,.customIcon-09d,
+.customIcon-09n,.customIcon-10d,.customIcon-10n,
+.customIcon-11d,.customIcon-11n,.customIcon-13d,
+.customIcon-13n, .customIcon-50d,.customIcon-50n {
+width: 70px;
+height: 70px;
+display: inline-block;
+background-size: cover;
+}

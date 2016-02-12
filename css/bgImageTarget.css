@@ -1,0 +1,547 @@
+/*   Weather Condition Codes    */
+   
+/*   Thunderstorm - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+			
+/* thunderstorm with light rain */
+.bgImage-200,
+.bgImage-200-d,
+.bgImage-200-n {
+  background: url(https://i.ytimg.com/vi/eJNPV85pMTU/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* thunderstorm with rain */
+.bgImage-201,
+.bgImage-201-d,
+.bgImage-201-n {
+  background: url(https://i.ytimg.com/vi/ITOILbsyon8/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* thunderstorm with heavy rain */
+.bgImage-202,
+.bgImage-202-d,
+.bgImage-202-n {
+  background: url(http://i.ytimg.com/vi/NKnV7iIumlg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  light thunderstorm  */
+.bgImage-210,
+.bgImage-210-d,
+.bgImage-210-n {
+  background: url(https://i.ytimg.com/vi/vaXwX28rrMg/maxresdefault.jpg) no-repeat center center;
+}
+/*  thunderstorm  */
+.bgImage-211,
+.bgImage-211-d,
+.bgImage-211-n {
+  background: url(https://i.ytimg.com/vi/GPovycN-by4/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*   heavy thunderstorm   */
+.bgImage-212,
+.bgImage-212-d,
+.bgImage-212-n {
+  background: url(http://i.ytimg.com/vi/NKnV7iIumlg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*   ragged thunderstorm   */
+.bgImage-221,
+.bgImage-221-d,
+.bgImage-221-n {
+  background: url(https://i.ytimg.com/vi/g9ZJF4aq2D4/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  thunderstorm with light drizzle    */
+.bgImage-230,
+.bgImage-230-d,
+.bgImage-230-n {
+  background: url(https://i.ytimg.com/vi/I9gSdyw5wbs/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  thunderstorm with drizzle     */
+.bgImage-231,
+.bgImage-231-d,
+.bgImage-231-n {
+  background: url(https://i.ytimg.com/vi/DzSj57g4voc/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* thunderstorm with heavy drizzle     */
+.bgImage-232,
+.bgImage-232-d,
+.bgImage-232-n {
+  background: url(https://i.ytimg.com/vi/t52joXXbqmU/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/*   Drizzle - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+/*  light intensity drizzle */
+.bgImage-300,
+.bgImage-300-d,
+.bgImage-300-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  drizzle */
+.bgImage-301,
+.bgImage-301-d,
+.bgImage-301-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  heavy intensity drizzle  */
+.bgImage-302,
+.bgImage-302-d,
+.bgImage-302-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*   light intensity drizzle rain  */
+.bgImage-310,
+.bgImage-310-d,
+.bgImage-310-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  drizzle rain  */
+.bgImage-311,
+.bgImage-311-d,
+.bgImage-311-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* heavy intensity drizzle rain */
+.bgImage-312,
+.bgImage-312-d,
+.bgImage-312-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* shower rain and drizzle  */
+.bgImage-313,
+.bgImage-313-d,
+.bgImage-313-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* heavy shower rain and drizzle*/
+.bgImage-314,
+.bgImage-314-d,
+.bgImage-314-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* shower drizzle */
+.bgImage-321,
+.bgImage-321-d,
+.bgImage-321-n {
+  background: url(https://i.ytimg.com/vi/JSTSQxZyRWg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/*   Rain - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+/* light rain  */
+.bgImage-500,
+.bgImage-500-d,
+.bgImage-500-n {
+  background: url(https://i.ytimg.com/vi/ITOILbsyon8/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* moderate rain  */
+.bgImage-501,
+.bgImage-501-d,
+.bgImage-501-n {
+  background: url(https://i.ytimg.com/vi/HX3iXkmllxE/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* heavy intensity rain  */
+.bgImage-502,
+.bgImage-502-d,
+.bgImage-502-n {
+  background: url(https://i.ytimg.com/vi/HX3iXkmllxE/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* very heavy rain   */
+.bgImage-503,
+.bgImage-503-d,
+.bgImage-503-n {
+  background: url(https://i.ytimg.com/vi/GXkJch02ZPA/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* extreme rain    */
+.bgImage-504,
+.bgImage-504-d,
+.bgImage-504-n {
+  background: url(https://i.ytimg.com/vi/voc1vp4MgYU/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* freezing rain    */
+.bgImage-511,
+.bgImage-511-d,
+.bgImage-511-n {
+  background: url(https://i.ytimg.com/vi/voc1vp4MgYU/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  light intensity shower rain    */
+.bgImage-520,
+.bgImage-520-d,
+.bgImage-520-n {
+  background: url(https://i.ytimg.com/vi/GXkJch02ZPA/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* shower rain  */
+.bgImage-521,
+.bgImage-521-d,
+.bgImage-521-n {
+  background: url(https://i.ytimg.com/vi/HX3iXkmllxE/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  heavy intensity shower rain  */
+.bgImage-522,
+.bgImage-522-d,
+.bgImage-522-n {
+  background: url(https://i.ytimg.com/vi/HX3iXkmllxE/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* ragged shower rain  */
+.bgImage-531,
+.bgImage-531-d,
+.bgImage-531-n {
+  background: url(https://i.ytimg.com/vi/LyPV0E7i83I/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/*   Snow - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+/* light snow  */
+.bgImage-600,
+.bgImage-600-d,
+.bgImage-600-n {
+  background: url(https://i.ytimg.com/vi/JfFL-Eo9EtQ/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  snow  */
+.bgImage-601,
+.bgImage-601-d,
+.bgImage-601-n {
+  background: url(https://i.ytimg.com/vi/59d7b_gQCxc/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*   heavy snow   */
+.bgImage-602,
+.bgImage-602-d,
+.bgImage-602-n {
+  background: url(https://i.ytimg.com/vi/XXkaAPRhpAk/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  sleet  */
+.bgImage-611,
+.bgImage-611-d,
+.bgImage-611-n {
+  background: url(https://i.ytimg.com/vi/hgrfTZTo_LU/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*   shower sleet */
+.bgImage-612,
+.bgImage-612-d,
+.bgImage-612-n {
+  background: url(https://i.ytimg.com/vi/hgrfTZTo_LU/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* light rain and snow */
+.bgImage-615,
+.bgImage-615-d,
+.bgImage-615-n {
+  background: url(https://i.ytimg.com/vi/YpYq2HO-e3s/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* rain and snow  */
+.bgImage-616,
+.bgImage-616-d,
+.bgImage-616-n {
+  background: url(https://i.ytimg.com/vi/m5RVAzSSlDs/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* light shower snow  */
+.bgImage-620,
+.bgImage-620-d,
+.bgImage-620-n {
+  background: url(https://i.ytimg.com/vi/Ql_DnBJYpDY/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* shower snow  */
+.bgImage-621,
+.bgImage-621-d,
+.bgImage-621-n {
+  background: url(https://i.ytimg.com/vi/_57lqxc0GZA/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* heavy shower snow  */
+.bgImage-622,
+.bgImage-622-d,
+.bgImage-622-n {
+  background: url(http://i.ytimg.com/vi/YUU_syMUKro/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/*   Atmosphere - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+/* mist */
+.bgImage-701,
+.bgImage-701-d,
+.bgImage-701-n {
+  background: url(https://i.ytimg.com/vi/G_wivpAnqpI/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* smoke */
+.bgImage-711,
+.bgImage-711-d,
+.bgImage-711-n {
+  background: url(https://i.ytimg.com/vi/geWb58BmN5o/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* haze */
+.bgImage-721,
+.bgImage-721-d,
+.bgImage-721-n {
+  background: url(https://i.ytimg.com/vi/H8w6zcfxM3M/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* Sand/Dust Whirls */
+.bgImage-731,
+.bgImage-731-d,
+.bgImage-731-n {
+  background: url(https://i.ytimg.com/vi/9I5nsW_-n0A/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* Fog */
+.bgImage-741,
+.bgImage-741-d,
+.bgImage-741-n {
+  background: url(https://i.ytimg.com/vi/zwRjh3Yi1wQ/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* sand */
+.bgImage-751,
+.bgImage-751-d,
+.bgImage-751-n {
+  background: url(https://i.ytimg.com/vi/0gM6zo6L7I0/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* dust */
+.bgImage-761,
+.bgImage-761-d,
+.bgImage-761-n {
+  background: url(https://i.ytimg.com/vi/5lGQwHnC41o/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  VOLCANIC ASH  */
+.bgImage-762,
+.bgImage-762-d,
+.bgImage-762-n {
+  background: url(https://i.ytimg.com/vi/EpS2TjwJOPg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* SQUALLS */
+.bgImage-771,
+.bgImage-771-d,
+.bgImage-771-n {
+  background: url(http://i.ytimg.com/vi/fKuSKqWCM8Y/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* TORNADO */
+.bgImage-781,
+.bgImage-781-d,
+.bgImage-781-n {
+  background: url(https://i.ytimg.com/vi/My0vxrm1nfo/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/*   Clouds - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+/*  sky is clear  */  /*  Calm  */
+.bgImage-800,
+.bgImage-800-d,
+.bgImage-951,
+.bgImage-951-d {
+  background: url(https://i.ytimg.com/vi/uPzlrCm9AJo/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bgImage-800-n,
+.bgImage-951-n {
+  background: url(https://i.ytimg.com/vi/kz76rPF7PLI/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  few clouds   */
+.bgImage-801,
+.bgImage-801-d {
+  background: url(https://i.ytimg.com/vi/uPzlrCm9AJo/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bgImage-801-n {
+  background: url(https://i.ytimg.com/vi/AqrSUIQ4l3o/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* scattered clouds */
+.bgImage-802,
+.bgImage-802-d {
+  background: url(https://i.ytimg.com/vi/K-ocIBxxnYI/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bgImage-802-n {
+  background: url(https://i.ytimg.com/vi/JGK1mqQ8DVg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* broken clouds  */
+.bgImage-803,
+.bgImage-803-d,
+.bgImage-803-n {
+  background: url(https://i.ytimg.com/vi/WCvx7pN_4jA/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* overcast clouds  */
+.bgImage-804,
+.bgImage-804-d,
+.bgImage-804-n {
+  background: url(https://i.ytimg.com/vi/eLX195micU8/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/*   Extreme - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+/* tornado  */
+.bgImage-900,
+.bgImage-900-d,
+.bgImage-900-n {
+  background: url(https://i.ytimg.com/vi/My0vxrm1nfo/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  tropical storm  */
+.bgImage-901,
+.bgImage-901-d,
+.bgImage-901-n {
+  background: url(https://i.ytimg.com/vi/eJNPV85pMTU/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* hurricane */
+.bgImage-902,
+.bgImage-902-d,
+.bgImage-902-n {
+  background: url(https://i.ytimg.com/vi/xvwE0rM_i70/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* cold */
+.bgImage-903,
+.bgImage-903-d,
+.bgImage-903-n {
+  background: url(https://i.ytimg.com/vi/5gQsRZCfmkc/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* hot */
+.bgImage-904,
+.bgImage-904-d,
+.bgImage-904-n {
+  background: url(https://i.ytimg.com/vi/QfpohU6iVQc/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* windy */
+.bgImage-905,
+.bgImage-905-d,
+.bgImage-905-n {
+  background: url(https://i.ytimg.com/vi/ZoXgCNN2Xtg/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* hail */
+.bgImage-906,
+.bgImage-906-d,
+.bgImage-906-n {
+  background: url(https://i.ytimg.com/vi/9ZtY2k36r_Y/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/*   Additional - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+/* Setting */
+.bgImage-950,
+.bgImage-950-d,
+.bgImage-950-n {
+  background: url(https://i.ytimg.com/vi/OTeqjZCUZdo/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  Light breeze  */
+.bgImage-952,
+.bgImage-952-d,
+.bgImage-952-n {
+  background: url(https://i.ytimg.com/vi/6qF-d9-48Nw/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  Gentle Breeze  */
+.bgImage-953,
+.bgImage-953-d,
+.bgImage-953-n {
+  background: url(https://i.ytimg.com/vi/YfW5ndBwYes/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  Moderate breeze  */
+.bgImage-954,
+.bgImage-954-d,
+.bgImage-954-n {
+  background: url(http://i.ytimg.com/vi/W9Cg9_JoFjc/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* Fresh Breeze  */
+.bgImage-955,
+.bgImage-955-d,
+.bgImage-955-n {
+  background: url(https://i.ytimg.com/vi/B01GylSPw0M/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* Strong  Breeze  */
+.bgImage-956,
+.bgImage-956-d,
+.bgImage-956-n {
+  background: url(https://i.ytimg.com/vi/P0Bxy9mrM54/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* High wind, near gale  */
+.bgImage-957,
+.bgImage-957-d,
+.bgImage-957-n {
+  background: url(https://i.ytimg.com/vi/-ctgVUuCPUE/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* Gale */
+.bgImage-958,
+.bgImage-958-d,
+.bgImage-958-n {
+  background: url(https://i.ytimg.com/vi/npPkE-2Svs4/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  Severe Gale  */
+.bgImage-959,
+.bgImage-959-d,
+.bgImage-959-n {
+  background: url(https://i.ytimg.com/vi/NslLnLPjZCs/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* Storm */
+.bgImage-960,
+.bgImage-960-d,
+.bgImage-960-n {
+  background: url(https://i.ytimg.com/vi/g9ZJF4aq2D4/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*  Violent Storm  */
+.bgImage-961,
+.bgImage-961-d,
+.bgImage-961-n {
+  background: url(https://i.ytimg.com/vi/-u16y_s7bjw/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* Hurricane */
+.bgImage-962,
+.bgImage-962-d,
+.bgImage-962-n {
+  background: url(http://i.ytimg.com/vi/7KOURnbNTqw/maxresdefault.jpg) no-repeat center center;
+  background-size: cover;
+}
